@@ -1,33 +1,20 @@
-[![DOI](https://zenodo.org/badge/265254045.svg)](https://zenodo.org/doi/10.5281/zenodo.10442485)
 
-<!-- Get rid of the metarepo instructions (the two sections below this) once you're done. -->
 
-# metarepo
-## [Check out the website for instructions](https://immm-sfa.github.io/metarepo)
-`metarepo` is short for meta-repository, a GitHub repository that contains instructions to reproduce results in a published work. This repo is a template for creating your own metarepo.
+# mongird-etal_2025_tbd
 
-## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility. This repository should contain references to all minted data and software as well as any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
+**Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures**
 
-<!-- Get rid of the metarepo instructions (the two sections above this) once you're done. -->
-
-# lastname-etal_year_journal
-
-**your Paper Title here (once published, include a link to the text)**
-
-First Last<sup>1\*</sup>, First Last<sup>1</sup>,  and First Last<sup>1, 2</sup>
+Kendall Mongird<sup>1\*</sup>, Kerem Ziya Akdemir<sup>1</sup>, Cameron Bracken<sup>1</sup>, Casey D. Burleyson<sup>1</sup>, Travis Thurber<sup>1</sup>, Chris R. Vernon<sup>1</sup>, Mengqi Zhao<sup>1</sup>, Jennie S. Rice<sup>1</sup>
 
 <sup>1 </sup>Pacific Northwest National Laboratory, Richland, WA, USA.
 
-<sup>2 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, Washington, DC, USA
-
-\* corresponding author:  email@myorg.gov
+\* corresponding author:  kendall.mongird@pnnl.gov
 
 ## Abstract
-_your abstract here_
+The US Western Interconnection is facing unprecedented challenges in the form of less predictable peak demand, increasingly geospatially diverse generating resources, and fast growing loads due to the onset of artificial intelligence, hyperscale computing, and electrification. Projecting where future generation may be developed will be critical to maintaining a robust and resilient electric grid under this mounting uncertainty and variability. Using an integrated multisectoral multiscale modeling framework that links a human-earth systems model, an hourly load model, a geospatial power plant siting model, and an hourly grid operations model, we evaluate the power plant landscape evolution under eight alternative futures between 2020 and 2055. We model projected power plant development under a wide but plausible range of meteorological conditions, emissions constraints, and economic and population growth assumptions. We find that local-level development can vary substantially both by generation type and capacity buildout depending on socioeconomic and emission pathway. Our results show that key subregions of the Western US are projected to see large amounts of capacity development regardless of future scenario. We additionally determine that siting location is more heavily influenced by the cost to interconnect to the electric grid compared to operational value and that the degree to which that is true is influenced by the amount of land available for siting and corresponding interconnection point options. 
 
 ## Journal reference
-_your journal reference_
+to be filled in upon publication
 
 ## Code reference
 References for each minted software release for all code involved.  
@@ -41,52 +28,42 @@ _your software reference here_
 ## Data reference
 
 ### Input data
-Reference for each minted data source for your input data.  For example:
-
-Human, I.M. (2021). My input dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-_your input data references here_
+| Dataset | Repository Link | DOI |
+| --- | --- | --- |
+| CERF: IM3 Projected Western US Power Plant Locations | https://data.msdlive.org/records/62fpt-0jr75 | https://doi.org/10.57931/2479527 |
+| Prepared Siting Parameter Data |  | |
 
 ### Output data
-Reference for each minted data source for your output data.  For example:
-
-Human, I.M. (2021). My output dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-_your output data references here_
+| Dataset | Repository Link | DOI |
+| --- | --- | --- |
+| GO and TEP Outputs | https://data.msdlive.org/records/7art3-45280 | https://doi.org/10.57931/2497839 |
+| CERF Outputs | 
 
 
 ## Contributing modeling software
-| Model | Version | Repository Link | DOI |
-|-------|---------|-----------------|-----|
-| model 1 | version | link to code repository | link to DOI dataset |
-| model 2 | version | link to code repository | link to DOI dataset |
-| component 1 | version | link to code repository | link to DOI dataset |
-
-## Reproduce my experiment
-Fill in detailed info here or link to other documentation to thoroughly walkthrough how to use the contents of this repository to reproduce your experiment. Below is an example.
-
-
-1. Install the software components required to conduct the experiment from [contributing modeling software](#contributing-modeling-software)
-2. Download and install the supporting [input data](#input-data) required to conduct the experiment
-3. Run the following scripts in the `workflow` directory to re-create this experiment:
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
-| `step_two.py` | Script to run the second part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
-
-4. Download and unzip the [output data](#output-data) from my experiment 
-5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
-
-## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
-
-| Figure Number(s) | Script Name | Description | How to Run |
+| Model | Version | Model Repository Link | DOI of Specific Version |
 | --- | --- | --- | --- |
-| 1, 2 | `generate_plot.py` | Description of figure, ie. "Plots the difference between our two scenarios" | `python3 generate_plot.py -input /path/to/inputs -output /path/to/outuptdir` |
-| 3 | `generate_figure.py` | Description of figure, ie. "Shows how the mean and peak differences are calculated" | `python3 generate_figure.py -input /path/to/inputs -output /path/to/outuptdir` |
+| GO | v0.1.0 | https://github.com/IMMM-SFA/go | https://doi.org/10.5281/zenodo.15399795 |
+| TEP | v1.1.0 | https://github.com/keremakdemir/Transmission_Expansion_Planner | https://doi.org/10.5281/zenodo.15413081 |
+| GCAM-USA | v5.3 | https://github.com/JGCRI/gcam-core | https://doi.org/10.5281/zenodo.3908600 |
+| CERF | v2.4.0 | https://github.com/IMMM-SFA/cerf | https://doi.org/10.5281/zenodo.13830460 |
+| TELL | v1.1.0 | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
+| reV | v0.7.0 | https://github.com/NREL/reV | https://doi.org/10.5281/zenodo.7301491 |
+
+
+## Reproduce my analysis and figures
+Use the scripts/files found in the `scripts` directory to reproduce the analysis and figures presented in this publication. 
+- Please check and make sure that all the necessary packages listed in `requirements.txt` are installed in your local Python environment.
+
+Run the following scripts to complete the analysis and prepare figures:
+
+| Script Name | Description | 
+| --- | --- | 
+| `prepare_data.py` | Script to organize data for analysis and plotting |
+| `run_ml_analysis.py` | Script to run the random forest classifier and SHAP analysis |
+| `plot_fig_2.py` | Script to plot Fig 2, SI-1, and SI-2 |
+| `plot_fig_3.py` | Script to plot Fig 3 and SI-3 |
+| `plot_fig_4.py` | Script to plot Fig 4 |
+| `plot_fig_5.py` | Script to plot Fig 5 |
+| `plot_fig_6.py` | Script to plot Fig 6 and SI-4 |
 
