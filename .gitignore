@@ -218,3 +218,19 @@ rsconnect
 inst/shinyApp/temp.ini
 inst/shinyApp/test.ini
 packrat/lib*/
+
+# extras
+*.csv
+*.dat
+*.shp 
+*.xml
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.shx
+*.pdf
+*.tif
+*.geojson
+*.bkp
