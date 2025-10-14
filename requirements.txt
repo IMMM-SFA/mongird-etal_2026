@@ -1,0 +1,9 @@
+In order to run the models and visualization scripts, you would need to install the following Python packages:
+- geopandas==1.1.0
+- jupyter==1.1.1
+- matplotlib==3.10.3
+- numpy==2.2.6
+- pandas==2.2.3
+- rasterio==1.4.3
+- sklearn==1.6.1
+- scipy==1.15.3
