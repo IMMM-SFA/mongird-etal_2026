@@ -234,3 +234,5 @@ packrat/lib*/
 *.tif
 *.geojson
 *.bkp
+/scripts/archive
+/data
