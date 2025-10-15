@@ -236,3 +236,4 @@ packrat/lib*/
 *.bkp
 /scripts/archive
 /data
+*.drawio
