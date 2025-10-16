@@ -19,7 +19,7 @@ to be filled in upon publication
 ## Data reference
 
 | Dataset | Type | Repository Link | DOI |
-| --- | --- | --- |
+| --- | --- | --- |--- |
 | CERF: IM3 Projected Western US Power Plant Locations | Input Data | https://data.msdlive.org/records/62fpt-0jr75 | https://doi.org/10.57931/2479527 |
 | Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures |  Input and Output Data | | https://doi.org/10.57931/2998526 | 
 
