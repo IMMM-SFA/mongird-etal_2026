@@ -1,6 +1,6 @@
 
 
-# mongird-etal_2025_tbd
+# mongird-etal_2025
 
 **Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures**
 
