@@ -1,6 +1,6 @@
 
 
-# mongird-etal_2025_tbd
+# mongird-etal_2025
 
 **Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures**
 
@@ -18,17 +18,10 @@ to be filled in upon publication
 
 ## Data reference
 
-### Input data
-| Dataset | Repository Link | DOI |
-| --- | --- | --- |
-| CERF: IM3 Projected Western US Power Plant Locations | https://data.msdlive.org/records/62fpt-0jr75 | https://doi.org/10.57931/2479527 |
-| CERF: Gridded Siting Parameters |  | |
-
-### Output data
-| Dataset | Repository Link | DOI |
-| --- | --- | --- |
-| Analysis Outputs | | |
-
+| Dataset | Type | Repository Link | DOI |
+| --- | --- | --- |--- |
+| CERF: IM3 Projected Western US Power Plant Locations | Input Data | https://data.msdlive.org/records/62fpt-0jr75 | https://doi.org/10.57931/2479527 |
+| Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures |  Input and Output Data | | https://doi.org/10.57931/2998526 | 
 
 ## Contributing modeling software
 | Model | Version | Model Repository Link | DOI of Specific Version |
@@ -54,6 +47,6 @@ Run the following scripts to complete the analysis and prepare figures:
 | `plot_fig_2.py` | Script to plot Fig 2, SI-1, and SI-2 |
 | `plot_fig_3.py` | Script to plot Fig 3 and SI-3 |
 | `plot_fig_4.py` | Script to plot Fig 4 |
-| `plot_fig_5.py` | Script to plot Fig 5 |
-| `plot_fig_6.py` | Script to plot Fig 6 and SI-4 |
+| `plot_fig_5.py` | Script to plot Fig 5 and SI-4 |
+| `plot_fig_6.py` | Script to plot Fig 6 and SI-5-12 |
 
