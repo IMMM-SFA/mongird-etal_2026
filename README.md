@@ -47,6 +47,6 @@ Run the following scripts to complete the analysis and prepare figures:
 | `plot_fig_2.py` | Script to plot Fig 2, SI-1, and SI-2 |
 | `plot_fig_3.py` | Script to plot Fig 3 and SI-3 |
 | `plot_fig_4.py` | Script to plot Fig 4 |
-| `plot_fig_5.py` | Script to plot Fig 5 |
-| `plot_fig_6.py` | Script to plot Fig 6 and SI-4 |
+| `plot_fig_5.py` | Script to plot Fig 5 and SI-4 |
+| `plot_fig_6.py` | Script to plot Fig 6 and SI-5-12 |
 
