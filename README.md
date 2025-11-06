@@ -2,7 +2,7 @@
 
 # mongird-etal_2025
 
-**Geospatial Analysis of Projected Western US Power Plant Siting Under Alternative Futures**
+**Energy Infrastructure Futures: A Multiscale Evaluation of Projected Power Plant Siting Across the Western Interconnection**
 
 Kendall Mongird<sup>1\*</sup>, Kerem Ziya Akdemir<sup>1</sup>, Cameron Bracken<sup>1</sup>, Casey D. Burleyson<sup>1</sup>, Travis Thurber<sup>1</sup>, Chris R. Vernon<sup>1</sup>, Mengqi Zhao<sup>1</sup>, Jennie S. Rice<sup>1</sup>
 
@@ -11,7 +11,7 @@ Kendall Mongird<sup>1\*</sup>, Kerem Ziya Akdemir<sup>1</sup>, Cameron Bracken<s
 \* corresponding author:  kendall.mongird@pnnl.gov
 
 ## Abstract
-The US Western Interconnection is facing unprecedented challenges in the form of less predictable peak demand, increasingly geospatially diverse generating resources, and fast growing loads due to the onset of artificial intelligence, hyperscale computing, and electrification. Projecting where future generation may be developed will be critical to maintaining a robust and resilient electric grid under this mounting uncertainty and variability. Using an integrated multisectoral multiscale modeling framework that links a human-earth systems model, an hourly load model, a geospatial power plant siting model, and an hourly grid operations model, we evaluate the power plant landscape evolution under eight alternative futures between 2020 and 2055. We model projected power plant development under a wide but plausible range of meteorological conditions, emissions constraints, and economic and population growth assumptions. We find that local-level development can vary substantially both by generation type and capacity buildout depending on socioeconomic and emission pathway. Our results show that key subregions of the Western US are projected to see large amounts of capacity development regardless of future scenario. We additionally determine that siting location is more heavily influenced by the cost to interconnect to the electric grid compared to operational value and that the degree to which that is true is influenced by the amount of land available for siting and corresponding interconnection point options. 
+The US Western Interconnection is facing unprecedented challenges in the form of less predictable peak demand, increasingly diverse generating resources, and fast-growing loads due to the onset of artificial intelligence, hyperscale computing, and electrification. Projecting where future generation may be developed is critical to maintaining a robust and resilient electric grid under this mounting uncertainty and variability. Using an integrated multisectoral, multiscale modeling framework that links a human-Earth systems model, an hourly load model, a geospatial power plant siting model, and an hourly grid operations model, we evaluate the power plant landscape evolution under eight alternative futures between 2020 and 2055. These futures represent a wide but plausible range of atmospheric conditions, emissions constraints, and economic, technological, and population growth assumptions. We find that local-level development can vary substantially both by generation type and capacity buildout across these futures. Specific regions of the Western Interconnection are projected to see large amounts of capacity development regardless of the future scenario. We additionally determine that projected power plant locations are more heavily influenced by the cost to interconnect to the electric grid than the locational energy value. 
 
 ## Journal reference
 to be filled in upon publication
@@ -44,9 +44,9 @@ Run the following scripts to complete the analysis and prepare figures:
 | --- | --- | 
 | `prepare_data.py` | Script to organize data for analysis and plotting |
 | `run_ml_analysis.py` | Script to run the random forest classifier and SHAP analysis |
-| `plot_fig_2.py` | Script to plot Fig 2, SI-1, and SI-2 |
-| `plot_fig_3.py` | Script to plot Fig 3 and SI-3 |
-| `plot_fig_4.py` | Script to plot Fig 4 |
-| `plot_fig_5.py` | Script to plot Fig 5 and SI-4 |
-| `plot_fig_6.py` | Script to plot Fig 6 and SI-5-12 |
+| `plot_fig_3.py` | Script to plot Fig 3, SI-1, and SI-2 |
+| `plot_fig_4.py` | Script to plot Fig 4 and SI-3 |
+| `plot_fig_5.py` | Script to plot Fig 5 |
+| `plot_fig_6.py` | Script to plot Fig 6 and SI-4 |
+| `plot_fig_7.py` | Script to plot Fig 7 and SI-5-12 |
 
