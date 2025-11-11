@@ -43,7 +43,7 @@ Run the following scripts to complete the analysis and prepare figures:
 | Script Name | Description | 
 | --- | --- | 
 | `prepare_data.py` | Script to organize data for analysis and plotting |
-| `run_ml_analysis.py` | Script to run the random forest classifier and SHAP analysis |
+| `run_analysis.py` | Script to run the random forest classifier and SHAP analysis |
 | `plot_fig_3.py` | Script to plot Fig 3, SI-1, and SI-2 |
 | `plot_fig_4.py` | Script to plot Fig 4 and SI-3 |
 | `plot_fig_5.py` | Script to plot Fig 5 |
