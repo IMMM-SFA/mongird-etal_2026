@@ -21,7 +21,7 @@ to be filled in upon publication
 | Dataset | Type | Repository Link | DOI |
 | --- | --- | --- |--- |
 | CERF: IM3 Projected Western US Power Plant Locations | Input Data | https://data.msdlive.org/records/62fpt-0jr75 | https://doi.org/10.57931/2479527 |
-| Energy Infrastructure Futures: A Multiscale Evaluation of Projected Power Plant Siting Across the Western Interconnection |  Input and Output Data | | https://doi.org/10.57931/2998526 | 
+| Energy Infrastructure Futures: A Multiscale Evaluation of Projected Power Plant Siting Across the Western Interconnection |  Input and Output Data | https://data.msdlive.org/records/6bvnd-ks423 | https://doi.org/10.57931/2998526 | 
 
 ## Contributing modeling software
 | Model | Version | Model Repository Link | DOI of Specific Version |
