@@ -1,6 +1,6 @@
 
 
-# mongird-etal_2025
+# mongird-etal_2026
 
 **Energy Infrastructure Futures: A Multiscale Evaluation of Projected Power Plant Siting Across the Western Interconnection**
 
